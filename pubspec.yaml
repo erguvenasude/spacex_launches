@@ -1,0 +1,35 @@
+name: spacex_launches
+description: A simple Flutter web app to display upcoming SpaceX launches.
+publish_to: 'none' # This prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0" # Dart SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # GraphQL client package
+  graphql_flutter: ^5.2.0
+
+  # State management (Riverpod)
+  flutter_riverpod: ^2.5.1
+
+  # Date and time formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  # Flutter's built-in test framework
+  flutter_test:
+    sdk: flutter
+
+  # For creating mock objects in unit tests
+  mocktail: ^1.0.3
+
+  # Official lint rules for Flutter projects
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
